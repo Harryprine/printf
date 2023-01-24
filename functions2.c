@@ -45,7 +45,7 @@ int flags, int width, int precision, int size)
 		padd = '0';
 
 	if (flags & F_PLUS)
-		extra_c = '+', length++
+		extra_c = '+', length++;
 	else if (flags & F_SPACE)
 		extra_c = ' ', length++;
 
